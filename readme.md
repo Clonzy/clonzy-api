@@ -10,10 +10,6 @@ Clonzy API is a Flask-based application that fetches graduated token data from [
 - 🎨 Clean black/white UI with Tailwind CSS + custom styling
 - 📊 API data exposed as JSON for frontend rendering
 
-## Live Demo
-
-Coming soon...
-
 ## Getting Started
 
 ### 1. Clone the repository
