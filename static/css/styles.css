@@ -1,0 +1,14 @@
+/* static/css/styles.css */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Optional custom table styles */
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+}
