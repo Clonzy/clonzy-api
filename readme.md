@@ -1,6 +1,6 @@
-# Clonzy API
+# CloneTIT API
 
-Clonzy API is a Flask-based application that fetches graduated token data from [https://clonzy.fun/api/graduated](https://clonzy.fun/api/graduated) every 10 seconds. The data is saved into a CSV file and dynamically displayed on a Tailwind-styled web page with a black-and-white theme.
+CloneTIT API is a Flask-based application that fetches graduated token data from [https://CloneTIT.fun/api/graduated](https://CloneTIT.fun/api/graduated) every 10 seconds. The data is saved into a CSV file and dynamically displayed on a Tailwind-styled web page with a black-and-white theme.
 
 ## Features
 
@@ -15,8 +15,8 @@ Clonzy API is a Flask-based application that fetches graduated token data from [
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Clonzy/clonzy-api.git
-cd clonzy-api
+git clone https://github.com/CloneTIT/CloneTIT-api.git
+cd CloneTIT-api
 ```
 
 ### 2. (Optional) Create a virtual environment
@@ -43,7 +43,7 @@ Then open your browser at:
 
 ## How It Works
 
-- `app.py` starts a background thread that fetches data from Clonzy API and writes it to `graduated.csv`.
+- `app.py` starts a background thread that fetches data from CloneTIT API and writes it to `graduated.csv`.
 - The `/` route renders `index.html`, displaying token data using Jinja2.
 - `/api/data` serves the latest token data as JSON.
 - JavaScript polls this endpoint every 10 seconds to update the table without reloading the page.
@@ -68,4 +68,4 @@ Pull requests are welcome! Feel free to open issues or submit improvements.
 
 ---
 
-Made with ❤️ by the Clonzy team.
+Made with ❤️ by the CloneTIT team.
